@@ -1,3 +1,60 @@
+# TradingView Style Crypto Matching Engine Dashboard
+
+## Overview
+This project is a React-based dashboard inspired by TradingView, designed for a crypto matching engine. It provides a real-time interface to view order book data, recent trades, and place buy/sell orders with various order types.
+
+## Features
+- Real-time order book display with bids and asks
+- Recent trades list with timestamps, prices, quantities, and sides
+- Order form to place buy or sell orders with limit, market, and stop types
+- Quick action buttons for chart viewing, order history, and settings
+- Dynamic updates simulating live market data
+- Responsive and styled with Tailwind CSS and custom CSS
+
+## Installation
+1. Clone the repository
+2. Navigate to the project directory
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open your browser and go to `http://localhost:3001`
+
+## Usage
+- Use the sidebar to view symbol info and place orders.
+- Select order type, side (buy/sell), quantity, and price (if applicable).
+- Click the Buy or Sell button to submit an order.
+- View the order book and recent trades updating in real-time.
+- Use quick action buttons for additional features (placeholders).
+
+## Main Components
+- **TradingViewStyleDashboard.jsx**: Main React component managing state and rendering the dashboard UI.
+- **Order Book**: Displays current bids and asks with prices and quantities.
+- **Recent Trades**: Shows a list of recent trades with details.
+- **Order Form**: Allows users to place orders with validation.
+- **Quick Actions**: Buttons for additional features (currently placeholders).
+
+## Development
+- The project uses React functional components and hooks.
+- Styling is done with Tailwind CSS and custom CSS.
+- Real-time updates are simulated with `setInterval` in `useEffect`.
+- The project can be extended to connect to real backend APIs for live data.
+
+## Testing
+- Critical-path testing includes verifying UI rendering, order form functionality, and dynamic updates.
+- Further thorough testing can be done by interacting with all UI elements and edge cases.
+
+## License
+This project is provided as-is for demonstration purposes. Please add your own licensing terms as needed.
+
+## Contact
+For questions or contributions, please contact the project maintainer.
+
+---
 # Backend for Crypto Matching Engine Dashboard
 
 ## Overview
@@ -61,3 +118,4 @@ The frontend React app can fetch data from this backend and submit orders via th
 Add your license information here.
 
 ---
+
